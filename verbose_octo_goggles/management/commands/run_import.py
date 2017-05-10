@@ -3,7 +3,7 @@ from django.core.management.base import BaseCommand
 from django.utils.module_loading import import_string
 
 from verbose_octo_goggles.config import OCTO_GOGGLES_MAPPING
-from verbose_octo_goggles.core import StopImport
+from verbose_octo_goggles.importer.base import StopImport
 
 
 class Command(BaseCommand):

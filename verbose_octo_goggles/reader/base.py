@@ -1,7 +1,7 @@
 import logging
 from time import time
 
-from verbose_octo_goggles.core import SkipItem
+from verbose_octo_goggles.importer.base import SkipItem
 from verbose_octo_goggles.utils import setup_logger
 
 
